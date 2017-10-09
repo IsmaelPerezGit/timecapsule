@@ -1,26 +1,22 @@
-.App {
-  text-align: center;
+body {
+  font-family: sans-serif;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.theBody {
+  height: 60vh;
 }
 
 .TopNav {
   background-color: black;
+  color: white;
+  margin-bottom: 0;
 }
 
-.homePage {
-  height: 85vh;
-}
-
-.userHome{
+.userHome {
   background-color: red;
 }
 
-.storiesHome{
+.storiesHome {
   background-color: pink;
 }
 

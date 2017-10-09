@@ -1,5 +1,4 @@
 import React from 'react'
-import {Input, Button} from 'react-materialize'
 
 class StoriesHome extends React.Component {
   render() {
