@@ -1,5 +1,31 @@
+.App {
+  text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.TopNav {
+  background-color: black;
+}
+
+.homePage {
+  height: 85vh;
+}
+
+.userHome{
+  background-color: red;
+}
+
+.storiesHome{
+  background-color: pink;
+}
+
+.Footer {
+  background-color: black;
+  color: white;
+  height: 50px;
 }
