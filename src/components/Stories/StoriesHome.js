@@ -11,16 +11,18 @@ class StoriesHome extends React.Component {
     // })
 
     return (
-      <div className="storiesHome">
-        <h3 className="storyListItem">Stories</h3>
-        <ul className="storyListItem">
-          <li >Thing 1</li>
-          <li >Thing 2</li>
-          <li >Thing 3</li>
-          <li >Thing 4</li>
-          <li >Thing 5</li>
-          <li >Thing 6</li>
-        </ul>
+      <div>
+        <div className="storiesHome">
+          <h3 className="storiesTitle">Stories</h3>
+          <ul className="storyListItem">
+            <li >Thing 1</li>
+            <li >Thing 2</li>
+            <li >Thing 3</li>
+            <li >Thing 4</li>
+            <li >Thing 5</li>
+            <li >Thing 6</li>
+          </ul>
+        </div>
       </div>
     )
   }

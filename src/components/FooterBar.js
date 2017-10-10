@@ -3,7 +3,7 @@ import React from 'react'
 const FooterBar = () => {
   return (
     <div className="Footer">
-      © 2014 Copyright Text
+      © 2017 Time Capsule
     </div>
   )
 }

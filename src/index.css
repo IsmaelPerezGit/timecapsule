@@ -3,47 +3,84 @@ body {
 }
 
 .TopNav {
-  background-color: teal;
+  background-color: #232323;
   color: white;
 }
 
 .homePage {
-  background-color: white;
   height: 85vh;
+  background: url('https://static.pexels.com/photos/100733/pexels-photo-100733.jpeg');
+  background-size: cover;
 }
 
 .signInForm {
   margin-top: 15vh;
+  color: white;
 }
 
 .homeTitle {
   margin: 0;
+  color: white;
+}
+
+.notAMember {
+  color: white;
+  margin-top: 20vh;
+}
+
+.notAMemberButton {
+  background-color: grey;
+}
+
+.notAMemberButton:hover {
+  background-color: black;
 }
 
 .userHome {
-  background-color: white;
+  background: url('https://static.pexels.com/photos/280263/pexels-photo-280263.jpeg');
+  background-size: cover;
   height: 85vh;
 }
 
 .usersTitle {
   margin: 0;
+  color: white;
+}
+
+.createAccountPage{
+  background: url('https://static.pexels.com/photos/242236/pexels-photo-242236.jpeg');
+  background-size: cover;
+  height: 85vh;
+}
+
+.createButton{
+  width: 31%;
+  background-color: darkred;
+}
+
+.newUsersTitle{
+  color:black;
+  margin: 0;
 }
 
 .storiesHome {
-  background-color: white;
+  background: url('https://static.pexels.com/photos/280392/pexels-photo-280392.jpeg');
+  background-size: cover;
   height: 85vh;
 }
 
 .storiesTitle {
   margin: 0;
+  color: white;
 }
 
 .storyListItem {
   margin: 0;
+  margin-top: 20vh;
 }
 
 .Footer {
-  background-color: teal;
+  background-color: #232323;
   color: white;
   height: 50px;
 }
