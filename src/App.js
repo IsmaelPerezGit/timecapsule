@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import './App.css';
 import NavigationBar from './components/Navbar'
 import FooterBar from './components/FooterBar'
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
-import { getAllStories } from './actions/stories'
+import {bindActionCreators} from 'redux';
+import {connect} from 'react-redux';
+import {getAllStories} from './actions/stories'
 
 class App extends Component {
 
@@ -14,17 +14,17 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App" >
-        <NavigationBar />
-        <FooterBar />
+      <div className="App">
+        <NavigationBar/>
+        <FooterBar/>
       </div>
     );
   }
 }
 
 function mapDispatchToProps(dispatch) {
-    return {
-        getAllStories: bindActionCreators(getAllStories, dispatch)
-    }
+  return {
+    getAllStories: bindActionCreators(getAllStories, dispatch)
+  }
 }
 export default connect(null, mapDispatchToProps)(App);

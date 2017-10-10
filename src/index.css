@@ -1,16 +1,28 @@
-
 body {
   font-family: sans-serif;
 }
 
 .TopNav {
-  background-color: black;
+  background-color: teal;
   color: white;
+}
 
+.homePage {
+  background-color: white;
+  height: 85vh;
+}
+
+.signInForm {
+  margin-top: 15vh;
+}
+
+.homeTitle {
+  margin: 0;
 }
 
 .userHome {
-  background-color: red;
+  background-color: white;
+  height: 85vh;
 }
 
 .usersTitle {
@@ -18,15 +30,20 @@ body {
 }
 
 .storiesHome {
-  background-color: pink;
+  background-color: white;
+  height: 85vh;
 }
 
 .storiesTitle {
   margin: 0;
 }
 
+.storyListItem {
+  margin: 0;
+}
+
 .Footer {
-  background-color: black;
+  background-color: teal;
   color: white;
   height: 50px;
 }
