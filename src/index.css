@@ -1,23 +1,28 @@
+
 body {
   font-family: sans-serif;
-}
-
-.theBody {
-  height: 60vh;
 }
 
 .TopNav {
   background-color: black;
   color: white;
-  margin-bottom: 0;
+
 }
 
 .userHome {
   background-color: red;
 }
 
+.usersTitle {
+  margin: 0;
+}
+
 .storiesHome {
   background-color: pink;
+}
+
+.storiesTitle {
+  margin: 0;
 }
 
 .Footer {
