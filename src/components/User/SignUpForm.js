@@ -13,7 +13,7 @@ class SignUpForm extends React.Component {
       email: '',
       username: '',
       password: '',
-      passwordconfirmation: ''
+      confirm: ''
     }
     this.onChange = this.onChange.bind(this)
     this.onSubmit = this.onSubmit.bind(this)
@@ -28,8 +28,8 @@ class SignUpForm extends React.Component {
 
   onSubmit(e) {
     e.preventDefault();
-    
     console.log("new User Added!!");
+    console.log(this.state);
   }
 
   render() {
@@ -68,9 +68,9 @@ class SignUpForm extends React.Component {
           </div>
           <div className="col s6 offset-s4 ">
             <Input
-              value={this.state.passwordconfirmation}
+              value={this.state.confirm}
               onChange={this.onChange}
-              name="passwordconfirmation"
+              name="confirm"
               type="password"
               label="Confirm password"
               s={8}
