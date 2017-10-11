@@ -8,7 +8,7 @@ class StoryList extends React.Component {
 
     const theStories = this.props.stories.map(story => {
       return (
-        <li className="collection-item avatar listItemContainer">
+        <li key={story.url} className="collection-item avatar listItemContainer">
           <a className="storyLink" href={story.url}>
             <img src={story.urlToImage} alt="" className="circle storyImgCircle"/>
           </a>
