@@ -6,21 +6,23 @@ class CreateUser extends React.Component {
     return (
       <div>
         <div className="createAccountPage">
-          <h3 className="newUsersTitle">Creat an account!</h3>
-          <div className="row creatUserForm">
-            <div className="col s6 offset-s4 ">
-              <Input type="email" label="Email" s={8}/>
+          <h3 className="newUsersTitle">Create an account!</h3>
+          <form>
+            <div className="row creatUserForm">
+              <div className="col s6 offset-s4 ">
+                <Input type="email" label="Email" s={8}/>
+              </div>
+              <div className="col s6 offset-s4 ">
+                <Input type="password" label="password" s={8}/>
+              </div>
+              <div className="col s6 offset-s4 ">
+                <Input type="password" label="confirm password" s={8}/>
+              </div>
+              <div className="col s6 offset-s4 ">
+                <Input type="password" label="password" s={8}/>
+              </div>
             </div>
-            <div className="col s6 offset-s4 ">
-              <Input type="password" label="password" s={8}/>
-            </div>
-            <div className="col s6 offset-s4 ">
-              <Input type="password" label="confirm password" s={8}/>
-            </div>
-            <div className="col s6 offset-s4 ">
-              <Input type="password" label="password" s={8}/>
-            </div>
-          </div>
+          </form>
           <Button className="createButton">Submit</Button>
         </div>
       </div>

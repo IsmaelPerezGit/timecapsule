@@ -64,7 +64,7 @@ body {
 }
 
 .creatUserForm {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .storiesHome {
@@ -79,12 +79,23 @@ body {
 }
 
 .storyListContainer {
-  margin-left: 28%;
+  margin-left: 15%;
+  margin-top: 2%;
+  border:10px solid #000;
+  font-family:arial;
+  height:70vh;
+  width:70%;
 }
 
 .storyList {
-  width: 65%;
-  margin-top: 20%;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  list-style:none;
+  max-height:100%;
+  overflow:auto;
+  text-indent:10px;
 }
 
 .listItemContainer {
@@ -94,6 +105,11 @@ body {
 
 .storyTitle {
   margin-right: 10%;
+  font-size: 20px;
+}
+
+.storyLink {
+  color: black;
 }
 
 .star {

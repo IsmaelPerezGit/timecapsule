@@ -9,10 +9,3 @@ export const getAllStories = () => {
     payload: request
   }
 }
-
-// export const addAStory = (story) => {
-//   return {
-//     type: 'ADD_A_STORY',
-//     payload: axios.post(``, story)
-//   }
-// }

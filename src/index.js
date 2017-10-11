@@ -10,5 +10,5 @@ const StoreInstance = Store();
 
 ReactDOM.render(
 <Provider store={StoreInstance}>
-  <App className="thebody"/>
+  <App />
 </Provider>, document.getElementById('root'));
