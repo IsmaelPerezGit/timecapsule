@@ -63,13 +63,17 @@ body {
   margin: 0;
 }
 
+.creatUserForm {
+  margin-top: 10%;
+}
+
 .storiesHome {
   background: url('https://static.pexels.com/photos/280392/pexels-photo-280392.jpeg');
   background-size: cover;
   height: 85vh;
 }
 
-.storiesTitle {
+.storiesPageTitle {
   margin: 0;
   color: white;
 }
@@ -83,8 +87,17 @@ body {
   margin-top: 20%;
 }
 
+.listItemContainer {
+  padding: 0;
+  margin: 0;
+}
+
 .storyTitle {
   margin-right: 10%;
+}
+
+.star {
+  color: lightgrey;
 }
 
 .addButton {
@@ -92,11 +105,7 @@ body {
   width: 10%;
 }
 
-.newsStory {
-  background-color: black;
-}
-
-.Footer {
+.footer {
   background-color: #232323;
   color: white;
   height: 50px;

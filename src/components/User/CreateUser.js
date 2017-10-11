@@ -7,7 +7,7 @@ class CreateUser extends React.Component {
       <div>
         <div className="createAccountPage">
           <h3 className="newUsersTitle">Creat an account!</h3>
-          <div className="row">
+          <div className="row creatUserForm">
             <div className="col s6 offset-s4 ">
               <Input type="email" label="Email" s={8}/>
             </div>

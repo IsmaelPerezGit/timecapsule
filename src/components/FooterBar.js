@@ -2,7 +2,7 @@ import React from 'react'
 
 const FooterBar = () => {
   return (
-    <div className="Footer">
+    <div className="footer">
       © 2017 Time Capsule
     </div>
   )

@@ -14,8 +14,8 @@ class StoriesHome extends React.Component {
     return (
       <div>
         <div className="storiesHome">
-          <h3 className="storiesTitle">Stories</h3>
-            <StoryList />
+          <h3 className="storiesPageTitle">Stories</h3>
+          <StoryList/>
         </div>
       </div>
     )

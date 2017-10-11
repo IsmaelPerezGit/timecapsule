@@ -5,8 +5,8 @@ class StoryList extends React.Component {
   render() {
     return (
       <div className="storyListContainer">
-        <ul class="collection storyList">
-          <StoryListItem />
+        <ul className="collection storyList">
+          <StoryListItem/>
         </ul>
       </div>
     )

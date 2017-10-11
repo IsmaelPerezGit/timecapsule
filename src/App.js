@@ -9,12 +9,8 @@ import CreateUser from './components/User/CreateUser'
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {getAllStories} from './actions/stories'
-import {
-  BrowserRouter as Router,
-  Route
-} from 'react-router-dom'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 import {Navbar, NavItem} from 'react-materialize'
-
 
 class App extends Component {
 
@@ -28,16 +24,16 @@ class App extends Component {
         <Router>
           <div>
             <Navbar className="TopNav" right>
-              <NavItem href="/" >Home</NavItem>
-              <NavItem href="/stories" >Stories</NavItem>
-              <NavItem href="/users" >My Account</NavItem>
+              <NavItem href="/">Home</NavItem>
+              <NavItem href="/stories">Stories</NavItem>
+              <NavItem href="/users">My Account</NavItem>
             </Navbar>
 
             <Route exact path="/" component={HomePage}/>
             <Route exact path="/stories" component={StoriesHome}/>
             <Route exact path="/users" component={UserHome}/>
             <Route exact path="/users/new" component={CreateUser}/>
-            <FooterBar />
+            <FooterBar/>
           </div>
         </Router>
       </div>
