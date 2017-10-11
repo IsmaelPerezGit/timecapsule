@@ -1,5 +1,9 @@
 import React from 'react'
 import {Input, Button} from 'react-materialize'
+// import axios from 'axios'
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+import {addNewUser} from '../../actions/users'
 
 class SignUpForm extends React.Component {
 
@@ -24,7 +28,8 @@ class SignUpForm extends React.Component {
 
   onSubmit(e) {
     e.preventDefault();
-    console.log("this state object", this.state);
+    
+    console.log("new User Added!!");
   }
 
   render() {
@@ -78,4 +83,10 @@ class SignUpForm extends React.Component {
   }
 }
 
-export default SignUpForm
+function mapDispatchToProps(dispatch) {
+  return {
+    addNewUser: bindActionCreators(addNewUser, dispatch)
+  }
+}
+
+export default connect(null, mapDispatchToProps)(SignUpForm);
