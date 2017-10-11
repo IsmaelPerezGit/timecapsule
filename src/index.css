@@ -47,19 +47,19 @@ body {
   color: white;
 }
 
-.createAccountPage{
+.createAccountPage {
   background: url('https://static.pexels.com/photos/242236/pexels-photo-242236.jpeg');
   background-size: cover;
   height: 85vh;
 }
 
-.createButton{
+.createButton {
   width: 31%;
   background-color: darkred;
 }
 
-.newUsersTitle{
-  color:black;
+.newUsersTitle {
+  color: black;
   margin: 0;
 }
 
@@ -74,9 +74,26 @@ body {
   color: white;
 }
 
-.storyListItem {
-  margin: 0;
-  margin-top: 20vh;
+.storyListContainer {
+  margin-left: 28%;
+}
+
+.storyList {
+  width: 65%;
+  margin-top: 20%;
+}
+
+.storyTitle {
+  margin-right: 10%;
+}
+
+.addButton {
+  height: 20px;
+  width: 10%;
+}
+
+.newsStory {
+  background-color: black;
 }
 
 .Footer {

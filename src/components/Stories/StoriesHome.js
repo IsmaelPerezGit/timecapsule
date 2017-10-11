@@ -1,5 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux';
+import StoryList from './StoryList'
 
 class StoriesHome extends React.Component {
 
@@ -14,22 +15,14 @@ class StoriesHome extends React.Component {
       <div>
         <div className="storiesHome">
           <h3 className="storiesTitle">Stories</h3>
-          <ul className="storyListItem">
-            <li >Thing 1</li>
-            <li >Thing 2</li>
-            <li >Thing 3</li>
-            <li >Thing 4</li>
-            <li >Thing 5</li>
-            <li >Thing 6</li>
-          </ul>
+            <StoryList />
         </div>
       </div>
     )
   }
 }
-
 function mapStateToProps(state, props) {
   return {stories: state.stories}
 }
 
-export default connect(mapStateToProps, null)(StoriesHome);
+export default StoriesHome
