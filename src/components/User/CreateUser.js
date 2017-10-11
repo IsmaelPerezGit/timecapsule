@@ -1,5 +1,5 @@
 import React from 'react'
-import {Input, Button} from 'react-materialize'
+import SignUpForm from './SignUpForm'
 
 class CreateUser extends React.Component {
   render() {
@@ -7,23 +7,7 @@ class CreateUser extends React.Component {
       <div>
         <div className="createAccountPage">
           <h3 className="newUsersTitle">Create an account!</h3>
-          <form>
-            <div className="row creatUserForm">
-              <div className="col s6 offset-s4 ">
-                <Input type="email" label="Email" s={8}/>
-              </div>
-              <div className="col s6 offset-s4 ">
-                <Input type="password" label="password" s={8}/>
-              </div>
-              <div className="col s6 offset-s4 ">
-                <Input type="password" label="confirm password" s={8}/>
-              </div>
-              <div className="col s6 offset-s4 ">
-                <Input type="password" label="password" s={8}/>
-              </div>
-            </div>
-          </form>
-          <Button className="createButton">Submit</Button>
+          <SignUpForm />
         </div>
       </div>
     )

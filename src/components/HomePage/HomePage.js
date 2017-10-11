@@ -18,7 +18,7 @@ class HomePage extends React.Component {
           </div>
           <p className="notAMember">not a member?</p>
           <Link to="/users/new">
-            <Button href="/users/new" className="notAMemberButton">Sign Up</Button>
+            <Button  className="notAMemberButton">Sign Up</Button>
           </Link>
         </div>
       </div>

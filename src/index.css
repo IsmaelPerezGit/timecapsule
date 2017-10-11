@@ -8,7 +8,7 @@ body {
 }
 
 .homePage {
-  height: 85vh;
+  min-height: 85vh;
   background: url('https://static.pexels.com/photos/100733/pexels-photo-100733.jpeg');
   background-size: cover;
 }
@@ -39,7 +39,7 @@ body {
 .userHome {
   background: url('https://static.pexels.com/photos/280263/pexels-photo-280263.jpeg');
   background-size: cover;
-  height: 85vh;
+  min-height: 85vh;
 }
 
 .usersTitle {
@@ -50,7 +50,7 @@ body {
 .createAccountPage {
   background: url('https://static.pexels.com/photos/242236/pexels-photo-242236.jpeg');
   background-size: cover;
-  height: 85vh;
+  min-height: 85vh;
 }
 
 .createButton {
@@ -70,7 +70,7 @@ body {
 .storiesHome {
   background: url('https://static.pexels.com/photos/280392/pexels-photo-280392.jpeg');
   background-size: cover;
-  height: 85vh;
+  min-height: 85vh;
 }
 
 .storiesPageTitle {
@@ -81,10 +81,10 @@ body {
 .storyListContainer {
   margin-left: 15%;
   margin-top: 2%;
-  border:10px solid #000;
-  font-family:arial;
-  height:70vh;
-  width:70%;
+  border: 10px solid #000;
+  font-family: arial;
+  height: 70vh;
+  width: 70%;
 }
 
 .storyList {
@@ -92,10 +92,10 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  list-style:none;
-  max-height:100%;
-  overflow:auto;
-  text-indent:10px;
+  list-style: none;
+  max-height: 100%;
+  overflow: auto;
+  text-indent: 10px;
 }
 
 .listItemContainer {

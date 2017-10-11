@@ -9,7 +9,7 @@ import CreateUser from './components/User/CreateUser'
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {getAllStories} from './actions/stories'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import {Navbar, NavItem} from 'react-materialize'
 
 class App extends Component {
@@ -24,9 +24,9 @@ class App extends Component {
         <Router>
           <div>
             <Navbar className="TopNav" right>
-              <NavItem href="/">Home</NavItem>
-              <NavItem href="/stories">Stories</NavItem>
-              <NavItem href="/users">My Account</NavItem>
+              <NavItem><Link to="/">Home</Link></NavItem>
+              <NavItem><Link to="/stories">Stories</Link></NavItem>
+              <NavItem><Link to="/users">My Account</Link></NavItem>
             </Navbar>
 
             <Route exact path="/" component={HomePage}/>
