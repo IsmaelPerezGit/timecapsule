@@ -28,6 +28,11 @@ body {
   margin-top: 20vh;
 }
 
+.signInButton{
+  background-color: grey;
+  width: 30%;
+}
+
 .notAMemberButton {
   background-color: grey;
 }

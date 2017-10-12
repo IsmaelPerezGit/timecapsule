@@ -6,7 +6,7 @@ export default(state = [], action) => {
       return [...state];
     case 'ADD_NEW_USER_FULFILLED':
       console.log('Success!!!', action.payload.data);
-      return [...action.payload.data.articles];
+      return [...action.payload.data];
     case 'ADD_NEW_USER_REJECTED':
       console.log('Unsuccessful');
       return [...state];
