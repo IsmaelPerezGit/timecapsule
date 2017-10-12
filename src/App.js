@@ -26,7 +26,7 @@ class App extends Component {
             <Navbar className="TopNav" right>
               <NavItem><Link to="/">Home</Link></NavItem>
               <NavItem><Link to="/stories">Stories</Link></NavItem>
-              <NavItem><Link to="/users">My Account</Link></NavItem>
+              <NavItem><Link to="/users">My Album</Link></NavItem>
             </Navbar>
 
             <Route exact path="/" component={HomePage}/>

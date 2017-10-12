@@ -63,6 +63,20 @@ body {
   background-color: darkred;
 }
 
+.cardOuterCont{
+  width: 25%;
+  display: inline-block;
+  margin: 3%;
+  max-height: 15px;
+}
+
+
+
+.cardContent{
+  max-height: 5px;
+  overflow: auto;
+}
+
 .newUsersTitle {
   color: black;
   margin: 0;

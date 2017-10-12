@@ -5,9 +5,10 @@ import {bindActionCreators} from 'redux';
 import {addNewUser} from '../../actions/users'
 
 class CreateUser extends React.Component {
+
   state = {
-    email: '',
     username: '',
+    email: '',
     password: '',
     confirm: ''
   }
@@ -23,7 +24,7 @@ class CreateUser extends React.Component {
     console.log("new User Added!!");
     console.log(this.state);
     this.props.addNewUser(this.state);
-    this.props.history.push("/")
+    this.props.history.push("/stories")
   }
 
   render() {
@@ -74,9 +75,7 @@ class CreateUser extends React.Component {
                 />
               </div>
             </div>
-
               <Button className="createButton">Submit</Button>
-
           </form>
         </div>
       </div>
