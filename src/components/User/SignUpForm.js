@@ -30,6 +30,7 @@ class SignUpForm extends React.Component {
     e.preventDefault();
     console.log("new User Added!!");
     console.log(this.state);
+    addNewUser(this.state);
   }
 
   render() {
