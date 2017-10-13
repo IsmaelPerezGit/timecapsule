@@ -157,11 +157,11 @@ body {
   color: black;
 }
 
-.star {
+.starNotSelected {
   color: lightgrey;
 }
 .starSelected {
-  color: Gold;
+  color: gold;
 }
 
 .addButton {

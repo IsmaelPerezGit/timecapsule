@@ -9,3 +9,10 @@ export const getAllStories = () => {
     payload: request
   }
 }
+
+export const toggleStarred = (id) => {
+  return {
+    type: 'TOGGLE_STARRED',
+    payload: id
+  }
+}
