@@ -24,7 +24,7 @@ class CreateUser extends React.Component {
     console.log("new User Added!!");
     console.log(this.state);
     this.props.addNewUser(this.state);
-    this.props.history.push("/stories")
+    this.props.history.push("/")
   }
 
   render() {
