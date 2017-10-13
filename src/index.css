@@ -54,7 +54,8 @@ body {
 
 .userHomeButtons{
   background-color: grey;
-  margin: 1%;
+  margin: .5%;
+  margin-left: 6%;
 }
 
 .userHomeButtons:hover{
@@ -94,6 +95,11 @@ body {
 .cardContent{
   max-height: 5px;
   overflow: auto;
+}
+
+.cardTitleText{
+  color: black;
+  height: 16vh;
 }
 
 .newUsersTitle {
@@ -152,6 +158,9 @@ body {
 
 .star {
   color: lightgrey;
+}
+.starSelected {
+  color: Gold;
 }
 
 .addButton {

@@ -2,7 +2,6 @@ import React from 'react'
 import {Button} from 'react-materialize'
 import {connect} from 'react-redux';
 
-
 class UserHome extends React.Component {
 
   render() {
@@ -11,17 +10,16 @@ class UserHome extends React.Component {
         <div className="cardOuterCont">
           <div >
             <div className="col s12 ">
-              <div className="card small">
-                <div className="card-image">
-                  <img src={story.urlToImage}/>
+              <a href={story.url}>
+                <div className="card small">
+                  <div className="card-image">
+                    <img src={story.urlToImage} alt="new article"/>
+                  </div>
+                  <div className="card-action">
+                    <p className="cardTitleText">{story.title}</p>
+                  </div>
                 </div>
-                <div className="card-content">
-                  <p >"{story.description}"</p>
-                </div>
-                <div className="card-action">
-                  <a href="#">{story.title}</a>
-                </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -30,21 +28,24 @@ class UserHome extends React.Component {
 
     return (
 
-        <div className="userHome">
-          <h3 className="usersTitle">My Album</h3>
-          <p className="scrollToViewStories">Scroll to view your stories</p>
-          <div className="cardListOuterContainer">
-            {cards}
-          </div>
-          <div>
-            <Button className="userHomeButtons">
-              Edit Account
-            </Button>
-            <Button className="userHomeButtons">
-              Delete Account
-            </Button>
-          </div>
+      <div className="userHome">
+        <h3 className="usersTitle">My Album</h3>
+        <p className="scrollToViewStories">Scroll to view your stories</p>
+        <div className="cardListOuterContainer">
+          {cards}
         </div>
+        <div>
+          <Button className="userHomeButtons">
+            Edit Account
+          </Button>
+          <Button className="userHomeButtons">
+            Edit Album
+          </Button>
+          <Button className="userHomeButtons">
+            Delete Account
+          </Button>
+        </div>
+      </div>
 
     )
   }

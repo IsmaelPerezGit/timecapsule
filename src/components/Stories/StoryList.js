@@ -4,6 +4,10 @@ import {connect} from 'react-redux';
 
 class StoryList extends React.Component {
 
+  state = {
+    is_Selected: "false"
+  }
+
   render() {
 
     const theStories = this.props.stories.map(story => {
