@@ -53,9 +53,10 @@ body {
 }
 
 .userHomeButtons{
-  background-color: grey;
+  background-color: black;
   margin: .5%;
-  margin-left: 6%;
+  margin-left: 5%;
+  margin-top: 2%;
 }
 
 .userHomeButtons:hover{
@@ -172,4 +173,8 @@ body {
   background-color: #232323;
   color: white;
   height: 50px;
+}
+
+.footerText{
+  margin-left: 2%;
 }
