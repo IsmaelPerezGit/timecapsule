@@ -13,6 +13,8 @@ class HomePage extends React.Component {
     // then either display some sort of error message for the username//
     // or just don't go anywhere. If they do successfully log in, then
     // re-route them to the dashboard or whatever
+    
+
   }
 
   render() {
@@ -21,7 +23,7 @@ class HomePage extends React.Component {
         <div className="homePage">
           <h3 className="homeTitle">Time Capsule</h3>
           <p className="homeTitle" >A News Scrapbook.</p>
-          
+
           <form>
             <div className="row signInForm">
               <div className="col s6 offset-s4 ">

@@ -42,7 +42,7 @@ body {
 }
 
 .userHome {
-  background: url('https://static.pexels.com/photos/280263/pexels-photo-280263.jpeg');
+  background: url('https://static.pexels.com/photos/47816/photo-album-photographer-old-47816.jpeg');
   background-size: cover;
   min-height: 85vh;
 }
@@ -50,6 +50,15 @@ body {
 .usersTitle {
   margin: 0;
   color: white;
+}
+
+.userHomeButtons{
+  background-color: grey;
+  margin: 1%;
+}
+
+.userHomeButtons:hover{
+  background-color: black;
 }
 
 .createAccountPage {
@@ -63,14 +72,24 @@ body {
   background-color: darkred;
 }
 
+.scrollToViewStories{
+  margin:0;
+  padding: 0;
+}
+
+.cardListOuterContainer{
+  max-height: 65vh;
+  overflow: auto;
+  /*text-indent: 10px;*/
+}
+
 .cardOuterCont{
   width: 25%;
   display: inline-block;
   margin: 3%;
-  max-height: 15px;
+  max-height:0px;
+  margin-top: 65vh;
 }
-
-
 
 .cardContent{
   max-height: 5px;

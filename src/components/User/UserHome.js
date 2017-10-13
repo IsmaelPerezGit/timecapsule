@@ -6,7 +6,6 @@ import {connect} from 'react-redux';
 class UserHome extends React.Component {
 
   render() {
-
     const cards = this.props.stories.map(story => {
       return (
         <div className="cardOuterCont">
@@ -33,12 +32,16 @@ class UserHome extends React.Component {
 
         <div className="userHome">
           <h3 className="usersTitle">My Album</h3>
-          <div>
+          <p className="scrollToViewStories">Scroll to view your stories</p>
+          <div className="cardListOuterContainer">
             {cards}
           </div>
           <div>
-            <Button className="notAMemberButton">
+            <Button className="userHomeButtons">
               Edit Account
+            </Button>
+            <Button className="userHomeButtons">
+              Delete Account
             </Button>
           </div>
         </div>
