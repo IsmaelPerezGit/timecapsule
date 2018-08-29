@@ -27,7 +27,7 @@ class HomePage extends React.Component {
       <div>
         <div className="homePage">
           <h3 className="homeTitle">Time Capsule</h3>
-          <p className="homeTitle">A News Scrapbook.</p>
+          <p className="homeTitle">A News Scrapbook</p>
           <form >
             <div className="row signInForm">
               <div className="col s6 offset-s4 ">
